@@ -1,0 +1,36 @@
+.about {
+    margin-top: 130px;
+    margin-left: 374px;
+}
+
+.about__content {
+    position: absolute;
+    width: 785px;
+    height: 455px;
+    background: linear-gradient(71.43deg, #8F00FF 0%, #148CFF 100%), #212121;
+    width: 785px;
+    height: 455px;
+    left: 743px;
+    top: 2272px;
+    border-radius: 5px 5px 5px 5px
+}
+
+.about__title {
+    font-weight: bold;
+    font-size: 36px;
+    margin-left: 81px;
+    margin-top: 70px;
+}
+
+.about__text {
+    width: 502px;
+    height: 135px;
+    margin-left: 81px;
+    margin-top: 37px;
+}
+
+.about__button {
+    margin-left: 81px;
+    margin-top: 25px;
+}
+

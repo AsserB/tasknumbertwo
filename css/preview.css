@@ -1,0 +1,30 @@
+.preview{
+    width: 637px;
+    height: 194px;
+    margin-left: 390px;
+    margin-top: 100px;
+}
+
+.preview__title{
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 1.1
+}
+
+.preview__text{
+    position: absolute;
+    font-weight: normal;
+    font-size: 21px;
+    width: 250px;
+    height: 27px;
+    left: 394px;
+    top: 400px;
+}
+
+.preview__button{
+   position: absolute;
+   width: 168px;
+    height: 55px;
+    left: 390px;
+    top: 527px;
+  }

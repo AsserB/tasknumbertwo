@@ -1,0 +1,52 @@
+.header {
+  padding: 34px 0;
+}
+
+.logo__img{
+  display: inline-block;
+  width: 160px;
+  height: 35px;
+  margin-right: 260px;
+}
+
+.menu{
+  display: inline-block;
+}
+
+.menu__link{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.menu__item{
+  display: inline-block;
+  margin-right: 62px;
+  position: relative;
+  bottom: 15px;
+}
+
+.contacts{
+  display: inline-block;
+}
+.contacts__number{
+  position:absolute;
+  width: 191px;
+  height: 35px;
+  left: 1340px;
+  top: 26.64px;
+  font-weight: normal;
+  font-size: 26px;
+  font-style: normal;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.contacts__schedule{
+  position: absolute;
+  left: 1432px;
+  top: 55.14px;
+  font-weight: normal;
+  font-size: 13px;
+  font-style: normal;
+  text-decoration: underline;
+  color: #FFFFFF;
+}

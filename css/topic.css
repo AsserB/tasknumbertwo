@@ -1,0 +1,81 @@
+/*SECTION TOPIC*/
+.topic{
+  margin-left: 389px;
+  margin-top: 373px;
+
+}
+
+.topic__title{
+  margin-bottom: 51px;
+}
+
+.topic__title-text{
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.topic__item{
+  min-height: 449px;
+  width: 362px;
+  background: white;
+  border-radius:5px 5px 5px 5px ;
+  display: inline-block;
+  margin-right: 27px;
+}
+
+.topic__img{
+  width: 362px;
+  height: 144px;
+  background: black;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.topic__img-third{
+  width: 362px;
+  height: 144px;
+  background: #150A18;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.topic__img-icon-second{
+ margin-left: 26px;
+}
+
+.topic__img-icon-third{
+  margin-left: 21px;
+}
+
+.topic__heading{
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
+  margin-top: 31px;
+  margin-left: 22px;
+}
+
+.topic__additional{
+  margin-top: 23px;
+  margin-left: 23px;
+}
+
+.topic__additional-info{
+  font-weight: normal;
+  font-size: 16px;
+  color: #666666;
+  margin-left: 10px;
+}
+.topic__text{
+  font-weight: normal;
+  font-size: 14px;
+  color: #303030;
+  margin-top: 26.5px;
+  margin-left: 22px;
+  width: 324px;
+  height: 63px;
+}
+
+.topic__icon{
+  margin-left: 5px;
+}
+
+/*SECTION TOPIC*/

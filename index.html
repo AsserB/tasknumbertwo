@@ -6,79 +6,94 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>QuizBox</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/main.css">
 </head>
 
 <body>
-  <div class="wrapper">
+  <div class="wrapper main-page-wrapper">
     <header class="header">
-      <a href="#" class="logo">
-        <img src="#" alt="Изображение логотипа" class="logo__img">
-      </a>
-      <nav class="menu">
-        <ul class="menu__page">
-          <li class="menu__item">
-            <a href="#" class="menu__link">Главная</a>
-          </li>
-          <li class="menu_list">
-            <a href="#" class="menu__link">Игры</a>
-          </li>
-          <li class="menu_list">
-            <a href="#" class="menu__link">Отзывы</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="contacts">
-        <a href="#" class="contacts__number">88007003030</a>
-        <div class="contacts__schedule">График работы </div>
-      </address>
+      <div class="container">
+        <div class="header__content">
+        <a href="#" class="logo">
+          <img src="/img/Quiz-box.png" alt="Изображение логотипа" class="logo__img">
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="#" class="menu__link">Главная</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Игры</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Отзывы</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="contacts">
+          <a href="#" class="contacts__number">8 800 700 30 30</a>
+          <div class="contacts__schedule">График работы </div>
+        </address>
+        </div>
+      </div>
     </header>
     <main class="main">
       <section class="preview">
-        <h1 class="preview__title">Интелектуальный вечер для шумной компании</h1>
+        <h1 class="preview__title">Интеллектуальный вечер для шумной компании</h1>
         <p class="preview__text">Игры на любой вкус</p>
-        <button class="preview__button">Подробнее</button>
+        <button class="preview__button">ПОДРОБНЕЕ</button>
       </section>
       <section class="topic">
-        <h2 class="topic__title">Новинки недели</h2>
+        <div class="topic__title">
+          <span class="topic__title-text">Новинки недели</span>
+          <img src="/img/Vector.png" alt="иконка" class="topic__title-icon">
+        </div>
         <ul class="topic__list">
           <li class="topic__item">
             <div class="topic__img">
-              <img src="#" alt="Иконка темы" class="topic__img-icon">
+              <img src="/img/music-quiz 1.png" alt="Иконка темы" class="topic__img-icon-first">
             </div>
             <div class="topic__heading">Музыкальная игра</div>
             <div class="topic__additional">
-              <div class="topic__additional-info">90 минут</div>
-              <div class="topic__additional-info">70 вопросов</div>
+              <img src="/img/Group.png" alt="Иконка" class="topic__icon">
+              <span class="topic__additional-info">90 минут</span>
+              <img src="/img/qa (1) 1.png" alt="Иконка" class="topic__icon">
+              <span class="topic__additional-info">70 вопросов</span>
             </div>
             <p class="topic__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic ex sequi, iure eligendi
               fugiat</p>
-            <button class="topic__button">Смотреть</button>
+            <button class="topic__button">СМОТРЕТЬ</button>
           </li>
           <li class="topic__item">
             <div class="topic__img">
-              <img src="#" alt="Иконка темы" class="topic__img-icon">
+              <img src="/img/Backin90x.png" alt="Иконка темы" class="topic__img-icon-second">
             </div>
             <div class="topic__heading">Назад в 90-е</div>
             <div class="topic__additional">
-              <div class="topic__additional-info">90 минут</div>
-              <div class="topic__additional-info">70 вопросов</div>
+              <img src="/img/Group.png" alt="Иконка" class="topic__icon">
+              <span class="topic__additional-info">90 минут</span>
+              <img src="/img/qa (1) 1.png" alt="Иконка" class="topic__icon">
+              <span class="topic__additional-info">70 вопросов</span>
             </div>
             <p class="topic__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic ex sequi, iure eligendi
               fugiat</p>
-            <button class="topic__button">Смотреть</button>
+            <button class="topic__button">СМОТРЕТЬ</button>
           </li>
           <li class="topic__item">
-            <div class="topic__img">
-              <img src="#" alt="Иконка темы" class="topic__img-icon">
+            <div class="topic__img-third">
+              <img src="/img/quizitimg.png" alt="Иконка темы" class="topic__img-icon-third">
             </div>
             <div class="topic__heading">It - викторина</div>
             <div class="topic__additional">
-              <div class="topic__additional-info">90 минут</div>
-              <div class="topic__additional-info">70 вопросов</div>
+              <img src="/img/Group.png" alt="Иконка" class="topic__icon">
+              <span class="topic__additional-info">90 минут</span>
+              <img src="/img/qa (1) 1.png" alt="Иконка" class="topic__icon">
+              <span class="topic__additional-info">70 вопросов</span>
             </div>
             <p class="topic__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic ex sequi, iure eligendi
               fugiat</p>
-            <button class="topic__button">Смотреть</button>
+            <button class="topic__button">СМОТРЕТЬ</button>
           </li>
         </ul>
       </section>
@@ -86,25 +101,25 @@
         <h2 class="past__title">Прошедшие игры</h2>
         <ul class="past__list">
           <li class="past__item">
-            <img src="#" alt="Фото с прошедших игр" class="past__img">
+            <img src="/img/kto_gde_kviz__moskva_1_qg_large 1.png" alt="Фото с прошедших игр" class="past__img">
             <div class="past__info">
-              <div class="past__date">1 января</div>
-              <div class="past__heading">Новогодний квиз</div>
-              <p class="past__text">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <span class="past__date">1 января</span>
+              <h3 class="past__heading">Новогодний квиз</h3>
+              <p class="past__text">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!</p>
             </div>
           </li>
           <li class="past__item">
-            <img src="#" alt="Фото с прошедших игр" class="past__img">
+            <img src="/img/3187ee0fc9499a1ef1583ff3c981cf5a 1.png" alt="Фото с прошедших игр" class="past__img">
             <div class="past__info">
-              <div class="past__date">8 марта</div>
-              <div class="past__heading">Весенняя игра</div>
-              <p class="past__text">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <span class="past__date">8 марта</span>
+              <h3 class="past__heading">Весенняя игра</h3>
+              <p class="past__text">Успевайте забронировать даты. Пока еще есть места на март. Удачи и всех благ!</p>
             </div>
           </li>
         </ul>
         <div class="paginator">
           <div class="paginator__display">Страница 1 из 7</div>
-          <ul class="poginator__list">
+          <ul class="paginator__list">
             <li class="paginator__item">
               <a href="#" class="paginator__link">1</a>
             </li>
@@ -130,60 +145,64 @@
         </div>
       </section>
       <section class="about">
-        <img src="#" alt="Фотография" class="about__img">
+        <img src="/img/kviz_pliz__nizhnii_novgorod_1_qg_large 1.png" alt="Фотография" class="about__img">
         <div class="about__content">
           <h2 class="about__title">О нас</h2>
-          <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo in magnam suscipit
-            pariatur?</p>
-          <button class="about__button">Подробнее</button>
+          <p class="about__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке,
+             а начинающему оратору отточить навык публичных выступлений dв домашних условиях.</p>
+          <button class="about__button">ПОДРОБНЕЕ</button>
         </div>
       </section>
     </main>
     <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
       <a href="#" class="logo">
-        <img src="#" alt="Изображение логотипа" class="logo__img">
+        <img src="/img/Quiz-box.png" alt="Изображение логотипа" class="logo__img--footer">
       </a>
       <nav class="menu">
-        <ul class="menu__page">
-          <li class="menu__item">
+        <ul class="menu__list">
+          <li class="menu__item--footer">
             <a href="#" class="menu__link">Главная</a>
           </li>
-          <li class="menu_list">
+          <li class="menu__item--footer">
             <a href="#" class="menu__link">Игры</a>
           </li>
-          <li class="menu_list">
+          <li class="menu__item--footer">
             <a href="#" class="menu__link">Отзывы</a>
           </li>
         </ul>
       </nav>
       <div class="socials">
         <ul class="socials__list">
-          <li>
+          <li class="socials__item">
             <a href="#" class="socials__link">
-              <img src="#" alt="Telegram" class="socials__icon">
+              <img src="/img/telegram.png" alt="Telegram" class="socials__icon--tel">
             </a>
           </li>
-          <li>
+          <li class="socials__item">
             <a href="#" class="socials__link">
-              <img src="#" alt="Vkontakte" class="socials__icon">
+              <img src="/img/vk.png" alt="Vkontakte" class="socials__icon--vk">
             </a>
           </li>
-          <li>
+          <li class="socials__item">
             <a href="#" class="socials__link">
-              <img src="#" alt="Facebook" class="socials__icon">
+              <img src="/img/f.png" alt="Facebook" class="socials__icon--face">
             </a>
           </li>
-          <li>
+          <li class="socials__item">
             <a href="#" class="socials__link">
-              <img src="#" alt="Istagram" class="socials__icon">
+              <img src="/img/in.png" alt="Istagram" class="socials__icon--inst">
             </a>
           </li>
         </ul>
       </div>
       <address class="contacts">
-        <div class="contacts__info">Бесплатный звонок по всей России</div>
-        <a href="#" class="contacts__number">88007003030</a>
+        <div class="contacts__info">Бесплатный звонок по России</div>
+        <a href="#" class="contacts__number--footer">8 800 700 30 30</a>
       </address>
+    </div>
+    </div>
     </footer>
   </div>
 </body>
