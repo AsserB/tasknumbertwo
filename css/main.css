@@ -1,10 +1,10 @@
-@import url(/css/topic.css);
-@import url(/css/button.css);
-@import url(/css/header.css);
-@import url(/css/past.css);
-@import url(/css/preview.css);
-@import url(/css/about.css);
-@import url(/css/footer.css);
+@import url(/tasknumbertwo/css/topic.css);
+@import url(/tasknumbertwo/css/button.css);
+@import url(/tasknumbertwo/css/header.css);
+@import url(/tasknumbertwo/css/past.css);
+@import url(/tasknumbertwo/css/preview.css);
+@import url(/tasknumbertwo/css/about.css);
+@import url(/tasknumbertwo/css/footer.css);
 
 html,
 body {
@@ -25,12 +25,11 @@ li {
   list-style-type: none;
 }
 
-.container{
+.container {
   width: 1090px;
   margin: 0 auto;
 }
 
-.main-page-wrapper{
-  background: url(/img/bk.png) center top no-repeat , url(/img/bk2.png) bottom no-repeat;
+.main-page-wrapper {
+  background: url(/img/bk.png) center top no-repeat, url(/img/bk2.png) bottom no-repeat;
 }
-
