@@ -31,5 +31,5 @@ li {
 }
 
 .main-page-wrapper {
-  background: url(/img/bk.png) center top no-repeat, url(/img/bk2.png) bottom no-repeat;
+  background: url(../img/bk.png) center top no-repeat, url(../img/bk2.png) bottom no-repeat;
 }
