@@ -1,10 +1,10 @@
-@import url(/css/topic.css);
-@import url(/css/button.css);
-@import url(/css/header.css);
-@import url(/css/past.css);
-@import url(/css/preview.css);
-@import url(/css/about.css);
-@import url(/css/footer.css);
+@import url(./css/topic.css);
+@import url(./css/button.css);
+@import url(./css/header.css);
+@import url(./css/past.css);
+@import url(./css/preview.css);
+@import url(./css/about.css);
+@import url(./css/footer.css);
 
 html,
 body {
