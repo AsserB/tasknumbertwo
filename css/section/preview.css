@@ -1,0 +1,78 @@
+
+.container{
+  margin: 0 auto;
+  width: 1140px;
+}
+
+header{
+  height: 100px;
+  position: relative;
+  margin-bottom: 148px;
+}
+
+.logo{
+  display: block;
+  position: absolute;
+  top: 26px;
+  left: 0;
+}
+
+.menu{
+  position: absolute;
+  top: 27px;
+  left: 315px;
+}
+
+.contacts{
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+
+.menu__item{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 65px;
+}
+
+.menu__link{
+  font-weight: normal;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.contacts{
+  font-style: normal;
+  text-align: right;
+}
+
+.contacts__number{
+  text-decoration: none;
+  font-size: 26px;
+}
+
+.contacts__schedule{
+  font-size: 13px;
+  margin-top: -7px;
+  margin-right: 5px;
+  text-decoration: underline;
+}
+
+.preview__content-text{
+  width: 640px;
+}
+
+.preview__title{
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 1.1;
+  margin-top: -45px;
+}
+
+.preview__subtitle{
+  font-size: 21px;
+  margin-top: -35px;
+  margin-bottom: 90px;
+}
+
+

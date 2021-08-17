@@ -1,0 +1,42 @@
+.buttom{
+  background: #8F00FF;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  padding: 18px 40px;
+  text-decoration: none;
+  text-transform: uppercase
+  ;
+}
+
+.topic__buttom{
+  background: #ffffff;
+  color: #8F00FF;
+  border: 1px solid #8F00FF;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  padding: 18px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.topic__buttom:hover{
+  color: white;
+  background:  #8F00FF;
+}
+
+.buttom__about{
+  background-color: transparent;
+  border-radius: 5px ;
+  border: 1px solid #ffffff;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  padding: 18px 40px;
+  text-decoration: none;
+  text-transform: uppercase
+}

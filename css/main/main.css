@@ -1,0 +1,32 @@
+@import url(../section/preview.css);
+@import url(../main/buttom.css);
+@import url(../section/topic.css);
+@import url(../section/preview.css);
+@import url(../section/about.css);
+@import url(../section/footer.css);
+
+body{
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 1.42;
+  background:#17191C;
+  font-family: "Open Sans", sans-serif;
+}
+
+a{
+  color:#FFFFFF;
+  text-decoration: none;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+ul li{
+  list-style: none;
+}
+
+.main-page-wrapper{
+  background: url(../img/bk.png) center top no-repeat, url(../img/bk2.png) bottom no-repeat;
+  
+}

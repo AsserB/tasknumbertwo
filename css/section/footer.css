@@ -1,0 +1,46 @@
+.footer{
+  margin-top: 89px;
+  height: 100px;
+  position: relative;
+}
+
+.contacts__info{
+  font-weight: normal;
+  font-size: 11px;
+  color:#9A9A9A;
+}
+
+.socials__list{
+  position: absolute;
+  top: 25px;
+  right: 250px;
+}
+
+.socials__link{
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+}
+.socials__item{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.socials__item:last-child{
+margin-right: 0;
+}
+
+.socials__item-icon-telegram .socials__link{
+  background-image: url(../img/telegram.png);
+}
+.socials__item-icon-vk .socials__link{
+  background-image: url(../img/vk.png);
+}
+.socials__item-face .socials__link{
+  background-image: url(../img/f.png);
+}
+.socials__item-inst .socials__link{
+  background-image: url(../img/in.png);
+}
