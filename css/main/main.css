@@ -1,7 +1,7 @@
 @import url(../section/preview.css);
 @import url(../main/buttom.css);
 @import url(../section/topic.css);
-@import url(../section/preview.css);
+@import url(../section/past.css);
 @import url(../section/about.css);
 @import url(../section/footer.css);
 
@@ -27,6 +27,6 @@ ul li{
 }
 
 .main-page-wrapper{
-  background: url(../img/bk.png) center top no-repeat, url(../img/bk2.png) bottom no-repeat;
+  background: url(../../img/bk.png) center top no-repeat, url(../../img/bk2.png) bottom no-repeat;
   
 }
