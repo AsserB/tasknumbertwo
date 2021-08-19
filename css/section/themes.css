@@ -1,0 +1,46 @@
+.themes{
+  display: flex;
+  background: #ffffff;
+}
+
+.themes__games{
+  margin-top: 90px;
+}
+
+.themes__item{
+  margin-top: 30px;
+}
+
+.themes__content{
+  padding: 10px;
+  display: flex;
+  margin-left: -10px;
+}
+
+.themes__icon{
+  background: rgb(0, 0, 0);
+  min-width: 460px;
+  height: 333px;
+  margin-right: 56px;
+  border-radius: 5px 5px 5px 5px;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  
+}
+
+.themes__title{
+  font-weight: bold;
+  font-size: 36px;
+  color: black;
+  margin-top: 10px;
+}
+
+.themes__text-about{
+  font-weight: normal;
+  font-size: 16px;
+  color: #303030;
+  
+  margin-top: 25px;
+  margin-bottom: 77px;
+}

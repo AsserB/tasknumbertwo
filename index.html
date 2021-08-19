@@ -9,7 +9,7 @@
 
     <title>Quiz-box</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-    
+
     <link rel="stylesheet" href="./css/main/normalize.css">
     <link rel="stylesheet" href="./css/main/main.css">
 </head>
@@ -19,26 +19,30 @@
         <section class="preview">
             <div class="container">
                 <header class="header">
-                    <a href="/" class="logo">
-                        <img src="./img/Quiz-box.png" alt="Иконка логотипа" class="logo__img">
-                    </a>
-                    <nav class="menu">
-                        <ul class="menu__list">
-                            <li class="menu__item">
-                                <a href="#" class="menu__link">Главная</a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="#" class="menu__link">Игры</a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="#" class="menu__link">Отзывы</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <address class="contacts">
-                        <a href="#" class="contacts__number">8 800 700 30 30</a>
-                        <div class="contacts__schedule">График работы </div>
-                    </address>
+                    <div class="header__piece">
+                        <a href="/" class="logo">
+                            <img src="./img/Quiz-box.png" alt="Иконка логотипа" class="logo__img">
+                        </a>
+                        <nav class="menu">
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">Главная</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="./games.html" class="menu__link">Игры</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">Отзывы</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header__piece header__piece-right">
+                        <address class="contacts">
+                            <a href="#" class="contacts__number">8 800 700 30 30</a>
+                            <div class="contacts__schedule">График работы </div>
+                        </address>
+                    </div>
                 </header>
                 <div class="preview__content">
                     <div class="preview__content-text">
@@ -194,11 +198,11 @@
                     <div class="about__info">
                         <h2 class="about__info-title">О нас</h2>
                         <div class="about__info-text">
-                        <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
-                            несколько
-                            абзацев более менее осмысленного текста рыбы на русском языке,
-                            а начинающему оратору отточить навык публичных выступлений dв
-                            домашних условиях.</p>
+                            <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                                несколько
+                                абзацев более менее осмысленного текста рыбы на русском языке,
+                                а начинающему оратору отточить навык публичных выступлений dв
+                                домашних условиях.</p>
                         </div>
                         <button class="buttom__about">Подробнее</button>
                     </div>
@@ -208,43 +212,47 @@
         <footer class="footer-container">
             <div class="container footer-container__content">
                 <div class="footer">
-                    <a href="/" class="logo">
-                        <img src="./img/Quiz-box.png" alt="Иконка логотипа" class="logo__img">
-                    </a>
-                    <nav class="menu">
-                        <ul class="menu__list">
-                            <li class="menu__item">
-                                <a href="#" class="menu__link">Главная</a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="#" class="menu__link">Игры</a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="#" class="menu__link">Отзывы</a>
-                            </li>
-                        </ul>
-                    </nav>
+                    <div class="footer__piece">
+                        <a href="/" class="logo">
+                            <img src="./img/Quiz-box.png" alt="Иконка логотипа" class="logo__img">
+                        </a>
+                        <nav class="menu">
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">Главная</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">Игры</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">Отзывы</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
                     <ul class="socials__list">
                         <li class="socials__item socials__item-icon-telegram">
-                          <a href="#" class="socials__link">
-                          </a>
+                            <a href="#" class="socials__link">
+                            </a>
                         </li>
                         <li class="socials__item socials__item-icon-vk">
-                          <a href="#" class="socials__link">
-                          </a>
+                            <a href="#" class="socials__link">
+                            </a>
                         </li>
                         <li class="socials__item socials__item-face">
-                          <a href="#" class="socials__link">
-                          </a>
+                            <a href="#" class="socials__link">
+                            </a>
                         </li>
                         <li class="socials__item socials__item-inst">
-                          <a href="#" class="socials__link">
-                        </a>
+                            <a href="#" class="socials__link">
+                            </a>
                     </ul>
-                    <address class="contacts">
-                         <div class="contacts__info">Бесплатный звонок по России</div>
-                        <a href="#" class="contacts__number">8 800 700 30 30</a>
-                    </address>
+                    <div class="footer__piece footer__piece-right">
+                        <address class="contacts">
+                            <div class="contacts__info">Бесплатный звонок по России</div>
+                            <a href="#" class="contacts__number">8 800 700 30 30</a>
+                        </address>
+                    </div>
                 </div>
             </div>
         </footer>

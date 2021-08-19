@@ -1,37 +1,25 @@
-
-.container{
-  margin: 0 auto;
-  width: 1140px;
+header{
+  margin-bottom: 148px;
+  padding-top: 34px;
+  display: flex;
+  justify-content: space-between;
 }
 
-header{
-  height: 100px;
-  position: relative;
-  margin-bottom: 148px;
+.header__piece{
+  display: flex;
+  align-items: center;
+}
+
+.header__piece-right{
+  justify-content: flex-end;
 }
 
 .logo{
-  display: block;
-  position: absolute;
-  top: 26px;
-  left: 0;
-}
-
-.menu{
-  position: absolute;
-  top: 27px;
-  left: 315px;
-}
-
-.contacts{
-  position: absolute;
-  top: 20px;
-  right: 0;
+  margin-right: 125px;
 }
 
 .menu__item{
-  display: inline-block;
-  vertical-align: middle;
+  display: inline-flex;
   margin-right: 65px;
 }
 
@@ -59,19 +47,18 @@ header{
 }
 
 .preview__content-text{
-  width: 640px;
+  width: 60%;
 }
 
 .preview__title{
   font-weight: bold;
   font-size: 60px;
   line-height: 1.1;
-  margin-top: -45px;
+  margin-top: -30px;
 }
 
 .preview__subtitle{
   font-size: 21px;
-  margin-top: -35px;
   margin-bottom: 90px;
 }
 

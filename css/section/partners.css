@@ -1,0 +1,32 @@
+.partners{
+  background: #ececec;
+  padding: 60px 0;
+}
+.partners__title{
+  font-weight: bold;
+  font-size: 48px;
+  color: #1A1B1E;
+  margin-bottom: 95px;
+}
+
+.partnerss__list{
+  display: flex;
+  flex-wrap: wrap;  
+  margin-top: -60px;
+}
+
+.partners__item{
+  margin-left: 10px;
+}
+
+.partners__item:nth-child(4n+1){
+  margin-left: 0;
+}
+
+.partners__link{
+  display: flex;
+  width: 270px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}

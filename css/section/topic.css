@@ -2,6 +2,10 @@
   margin-top: 193px;
 }
 
+.topic__list{
+display: flex;
+}
+
 .topic__title{
   height: 50px;
 }
@@ -14,7 +18,6 @@
 
 .topic__item{
   width: 362px;
-  display: inline-block;
   margin-right: 22px;
   margin-top: 51px;
 }
@@ -23,23 +26,19 @@
   height: 144px;
   background: #010101;
   border-radius: 5px 5px 0px 0px;
-}
+ }
 
-.topic__img{
+ .topic__img{
   margin: 10px auto 20px;
-    display: block;
+  display: flex;
 }
 
 .topic__content{
-  height: 270px;
+  min-height: 270px;
   background: #ffffff;
   border-radius: 5px 5px 5px 5px;
-  padding: 22px 33px;
+  padding: 22px 30px;
 }
-.topic__item:last-child{
-  margin: 0;
-}
-
 .topic__heading{
   font-weight: bold;
   font-size: 24px;
@@ -51,7 +50,7 @@
   color: #666666;
   font-weight: normal;
   font-size: 16px;
-  display: inline-block;
+  display: inline-flex;
   margin-top: 23px;
 }
 
@@ -61,13 +60,7 @@
   color: #303030;
 }
 
-.topic__text{
-  margin-top: 26px;
-  width: 324px;
-  height: 63px;
-}
 
 .topic__buttom-wrapper{
   margin-top: 50px;
 }
-

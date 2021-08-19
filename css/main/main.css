@@ -4,6 +4,8 @@
 @import url(../section/past.css);
 @import url(../section/about.css);
 @import url(../section/footer.css);
+@import url(../section/themes.css);
+@import url(../section/partners.css);
 
 body{
   color: #FFFFFF;
@@ -26,7 +28,23 @@ ul li{
   list-style: none;
 }
 
+.container{
+  margin: 0 auto;
+  width: 1140px;
+}
+
+.section{
+  margin: 0 auto;
+  width: 1920px;
+}
+
+
 .main-page-wrapper{
   background: url(../../img/bk.png) center top no-repeat, url(../../img/bk2.png) bottom no-repeat;
   
+}
+
+.page-background{
+  background: url(../../img/bk.png) center no-repeat;
+  height: 410px;
 }

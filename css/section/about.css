@@ -5,7 +5,7 @@
 
 .about__content::before{
   content: "";
-  display: inline-block;
+  display: inline-flex;
   vertical-align: top;
   width: 489px;
   height: 505px;
