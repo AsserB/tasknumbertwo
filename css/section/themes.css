@@ -1,20 +1,20 @@
 .themes{
   display: flex;
   background: #ffffff;
-}
-
-.themes__games{
-  margin-top: 90px;
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 
 .themes__item{
-  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.themes__item:last-child{
+  margin-bottom:  0;
 }
 
 .themes__content{
-  padding: 10px;
   display: flex;
-  margin-left: -10px;
 }
 
 .themes__icon{
@@ -43,4 +43,12 @@
   
   margin-top: 25px;
   margin-bottom: 77px;
+}
+
+.paginator-themes-dark{
+  color: #000000;
+}
+
+.paginator-themes-dark .paginator__link:hover{
+  color: #ffffff;
 }
