@@ -1,0 +1,34 @@
+.start{
+  height: 940px;
+  background: url(/startpagebg.png) center top no-repeat;
+  background-blend-mode: luminosity;
+  background-color: #17191C;
+  box-shadow:
+ inset 0 350px 250px #17191C;
+}
+
+.start__content{
+  padding-top: 370px;
+  margin-left: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.start__buttom{
+  padding-top: 50px;
+  margin-left: 75px;
+}
+
+.start__batom-bg{
+  background: #8F00FF;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  padding: 18px 58px;
+  text-transform: uppercase
+}
+
+.start__batom-bg:hover{
+  background: #741BBA;
+}

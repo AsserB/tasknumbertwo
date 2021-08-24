@@ -10,7 +10,7 @@
   margin-top: 0;
 }
 
-.partnerss__list{
+.partners__list{
   display: flex;
   flex-wrap: wrap;  
   gap: 20px; /*grid-gap. Они позволяют легко создавать отступы между элементами внутри сетки.*/
@@ -22,4 +22,12 @@
   height: 100px;
   align-items: center;
   justify-content: center;
+}
+
+.partners__img{
+  filter: grayscale(100%);
+}
+
+.partners__img:hover{
+  filter: grayscale(0%);
 }

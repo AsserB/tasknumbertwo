@@ -1,0 +1,12 @@
+
+.game__content{
+  display: flex;
+  justify-content:space-between
+}
+
+.game__title{
+  font-weight: bold;
+  font-size: 48px;
+  width: 383px;
+  padding-top: 100px;
+}

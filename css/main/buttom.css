@@ -10,6 +10,10 @@
   ;
 }
 
+.buttom:hover{
+  background: #741BBA;
+}
+
 .topic__buttom{
   background: #ffffff;
   color: #8F00FF;
@@ -39,4 +43,8 @@
   padding: 18px 40px;
   text-decoration: none;
   text-transform: uppercase
+}
+
+.buttom__about:hover{
+  background: #741BBA;
 }
