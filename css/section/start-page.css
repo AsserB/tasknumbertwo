@@ -1,6 +1,6 @@
 .start{
   height: 940px;
-  background: url(/startpagebg.png) center top no-repeat;
+  background: url(./startpagebg.png) center top no-repeat;
   background-blend-mode: luminosity;
   background-color: #17191C;
   box-shadow:

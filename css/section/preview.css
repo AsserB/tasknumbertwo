@@ -44,12 +44,40 @@ header{
   font-size: 26px;
 }
 
-.contacts__schedule{
+.contacts__schedule-desc{
   font-size: 13px;
   margin-top: -7px;
-  margin-right: 5px;
   text-decoration: underline;
   color: #98A4A8;
+}
+
+.contacts__schedule{
+  position: relative;
+  cursor: pointer;
+}
+
+.contacts__schedule:hover .contacts__dropdawn{
+  opacity: 1;
+}
+
+.contacts__dropdawn{
+  opacity: 0;
+  position: absolute;
+  background: url(../../img/dropdownimg.png) center center /cover no-repeat;
+  height: 70px;
+  left: 43px;
+  transition: 0.5s all ease-in-out;
+}
+
+.contacts__dropdawn-container{
+  padding: 12px;
+}
+
+.contacts__dropdawn-text{
+  font-size: 13px;
+  color: #1E1F20;
+  margin: 1px;
+  font-weight: 600;
 }
 
 .preview__content-text{
