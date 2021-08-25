@@ -19,6 +19,7 @@
   padding-bottom: 32px;
 }
 
+
 .comment__header {
   display: flex;
   padding-top: 50px;
@@ -78,4 +79,6 @@
   color: #2E77A4;
   text-decoration: underline;
 }
+
+
 

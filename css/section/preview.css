@@ -96,4 +96,26 @@ header{
   margin-bottom: 90px;
 }
 
+.breadcrumb{
+  padding-top: 40px;
+  display: inline-flex;
+  
+}
 
+.breadcrumb__link{
+  color: #9A9A9A;
+  text-decoration: underline;
+}
+
+.breadcrumb__link-select{
+  color: #9A9A9A;
+  padding-left: 3px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.breadcrumb__midle-sign{
+  text-decoration: none;
+  padding-left: 3px;
+  color: #9A9A9A;
+}

@@ -1,6 +1,6 @@
 .start{
   height: 940px;
-  background: url(./startpagebg.png) center top no-repeat;
+  background: url(../../img/startpagebg.png) center top no-repeat;
   background-blend-mode: luminosity;
   background-color: #17191C;
   box-shadow:
@@ -12,6 +12,32 @@
   margin-left: 800px;
   display: flex;
   flex-direction: column;
+  animation: myAnimation 1s;
+}
+
+@keyframes myAnimation{
+  20%,50%,80%,to{
+    transform: translateY(0);
+  }
+  0%{
+    opacity: 0;
+  }
+  40%{
+    transform: translateY(-30px);
+  }
+  50%{
+    
+  }
+
+  70%{
+    transform: translateY(-15px);
+    opacity: 1;
+  }
+
+  90%{
+    transform: translateY(-4px);
+  }
+ 
 }
 
 .start__buttom{
