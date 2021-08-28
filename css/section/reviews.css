@@ -1,0 +1,169 @@
+.page-content{
+  background: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.reviews{
+  column-count: 2;
+  column-gap: 30px;
+}
+
+.reviews__item{
+  margin-bottom: 20px;
+}
+
+.review{
+  display: inline-flex;
+  flex-direction: column;
+  padding: 50px 30px;
+  background: #F2F2F2;
+  border-radius: 5px;
+}
+
+.review__header{
+  display: flex;
+  align-items: center;
+}
+
+.review__userdata{
+  padding-left: 22px;
+}
+
+.review__user{
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1A1B1E;
+  margin-bottom: 11px;
+}
+
+.review__user:hover{
+  color: #2E77A4;
+  text-decoration: underline;
+}
+
+.review__user::after{
+content: url(../../img/vk-blue\ 1.png);
+height: 29px;
+padding-left: 12px;
+}
+
+.review__tags{
+  display: flex;
+  align-items: flex-start;
+}
+
+.avatar{
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.tag {
+  display: inline-block;
+  background: #E7E7E7;
+  border-radius: 35px;
+  padding: 9px 21px;
+  color: #303030;
+}
+
+.tag-green{
+  background: #B9EAE4;
+}
+
+.review__title{
+  font-weight: bold;
+  font-size: 30px;
+  color: #1A1B1E;
+  margin-bottom: 23px;
+}
+
+.review__content-text{
+  font-weight: normal;
+  font-size: 16px;
+  color: #818181;
+  margin-bottom: 50px;
+}
+
+.review__date{
+  font-weight: 600;
+  font-size: 14px;
+  color: #1A1B1E;
+}
+
+
+
+
+/*.review{
+  display: flex;
+  flex-direction: column;
+}
+
+.review__header{
+  display: flex;
+  align-items: center;
+}
+
+.avatar{
+  width: 142px;
+  height: 142px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+.review__title {
+  font-weight: bold;
+  font-size: 30px;
+  color: #1A1B1E;
+}
+
+.review__text {
+  font-weight: normal;
+  font-size: 16px;
+  color: #818181;
+}
+
+.review__date {
+  font-weight: 600;
+  font-size: 14px;
+  color: #1A1B1E;
+}
+
+.review__name-link {
+  font-weight: bold;
+  font-size: 24px;
+  color: #1A1B1E;
+  display: flex;
+  align-items: center;
+}
+
+.review__name-link::after{
+  content: url(../../img/vk-blue\ 1.png);
+  height: 29px;
+}
+
+.review__name-link:hover{
+  color: #2E77A4;
+  text-decoration: underline;
+}
+
+.tag {
+  display: inline-block;
+  background: #E7E7E7;
+  border-radius: 35px;
+  padding: 9px 21px;
+  color: #303030;
+}
+
+.tag-green{
+  background: #B9EAE4;
+}

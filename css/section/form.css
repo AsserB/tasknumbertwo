@@ -1,103 +1,102 @@
-.form {
-  background: #ececec;
+.feedback{
+  background: #F2F2F2;;
+  padding-top: 5px;
+  padding-bottom: 96px;
 }
 
-.form__title {
-  color: #1A1B1E;
+.form__title{
   font-weight: bold;
   font-size: 48px;
-  padding-top: 62px;
-}
-
-input {
-  width: 535px;
-  height: 50px;
-  font-size: 18px;
-  margin-bottom: 26px;
-  margin-right: 10px;
-  border-radius: 5px;
-  border: white;
-  padding-left: 15px;
-}
-
-input:focus {
-  border: 3px solid #8F00FF;
-}
-
-textarea {
-  width: 1085px;
-  height: 235px;
-  padding-top: 29px;
-  padding-left: 30px;
-  border-radius: 5px;
-  border: white;
-}
-
-textarea:focus {
-  border: 3px solid #8F00FF;
-}
-
-.form__select{
- display: flex;
- padding-top: 34px;
- flex-wrap: wrap;
- align-items: baseline;
-}
-
-.form__select-button{
-  background: #dfdfdf;
-  border-radius: 35px;
-  color: #303030;
-  font-size: 13px;
-  width: 140px;
-  height: 37px;
-  text-align: center;
-}
-
-.form__text{
   color: #1A1B1E;
+  padding-bottom: 40px;
+}
+
+.form__row{
+  display: flex;
+  margin-bottom: 29px;
+}
+
+.form__input{
+  flex: 1;
+  margin-right: 28px;
+  border-radius: 5px;
+  border: none;
+  background: white;
+  padding: 20px 30px;
   font-size: 18px;
-  width: 366px;
-  padding-right: 88px;
+  color: #1A1B1E;
 }
 
-.form__select-button:focus{
-  background: #B9EAE4;
-  border-color: #ececec;
+.form__input::placeholder{
+  color: #666666;
 }
 
-.form__buttom {
-  min-width: 80px;
-  padding-right: 10px;
-  padding-bottom: 96px;
+.form__input:last-child{
+  margin-right: 0px;
+}
+
+.form__input-textarea{
+  height: 235px;
+}
+
+.controls__elem{
+  cursor: pointer;
+}
+
+.form__controls{
+  display: flex;
+  padding-bottom: 35px;
+}
+
+.form__controls-title{
+  width: 40%;
+  color: #1A1B1E;
+  padding-left: 30px;
+  margin-right: 15px;
+}
+
+.controls{
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.controls__item{
+  margin-bottom: 9px;
+  margin-right: 7px;
+}
+
+.controls__checkbox:checked ~ .controls__tag{
+background: #B9EAE4;
+}
+
+.controls__checkbox{
+  display: none;
+}
+
+.buttom-feedback-grey{
+background: #8E8E8E;
+color: white;
+}
+
+.buttom-feedback-grey:hover{
+  background: #2B2B2B;
+  }
+
+.buttom-feedback-purp{
+ background: #8F00FF;
+ color: white;
+}
+
+.form__buttoms{
   display: flex;
   justify-content: flex-end;
 }
 
-.form__buttom-icon-reset {
-  width: 168px;
-  height: 55px;
-  background: #8E8E8E;
-  color: white;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 14px;
+.form__btn{
+  margin-right: 17px;
 }
 
-.form__buttom-icon-reset:hover {
-  background: #2B2B2B;
-}
-
-.form__buttom-icon-submit {
-  width: 168px;
-  height: 55px;
-  background: #8F00FF;
-  color: white;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 14px;
-}
-
-.form__buttom-icon-submit:hover{
-  background: #741BBA;
+.form__btn:last-child{
+  margin-right: 0;
 }

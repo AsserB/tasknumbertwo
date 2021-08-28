@@ -7,9 +7,9 @@
 @import url(../section/themes.css);
 @import url(../section/partners.css);
 @import url(../section/start-page.css);
-@import url(../section/comment.css);
 @import url(../section/game.css);
 @import url(../section/form.css);
+@import url(../section/reviews.css);
 
 body{
   color: #FFFFFF;
@@ -30,6 +30,12 @@ ul{
 }
 ul li{
   list-style: none;
+}
+
+button{
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 .container{
