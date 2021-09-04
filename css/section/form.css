@@ -20,12 +20,17 @@
   flex: 1;
   margin-right: 28px;
   border-radius: 5px;
-  border: none;
+  border: 1px;
   background: white;
   padding: 20px 30px;
   font-size: 18px;
   color: #1A1B1E;
 }
+
+.form__input:focus{
+  outline: none;
+  border: 1px solid #8F00FF;
+  }
 
 .form__input::placeholder{
   color: #666666;
@@ -37,7 +42,9 @@
 
 .form__input-textarea{
   height: 235px;
+  border: 1px;
 }
+
 
 .controls__elem{
   cursor: pointer;
